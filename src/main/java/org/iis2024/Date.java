@@ -15,7 +15,13 @@ import java.text.SimpleDateFormat;
  * Instances of this class are immutable, meaning that once a Date object is created, the day,
  * month, and year values cannot be changed.
  */
-public class Date {
+// Constructor modified by the owner
+public Date(int dia, int mes, int año) {
+  this.day = dia;
+  this.month = mes;
+  this.year = año;
+
+  public class Date {
   private int fieldAddedByCollaborator;
 
   private final int day;
