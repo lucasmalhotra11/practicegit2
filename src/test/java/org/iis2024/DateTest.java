@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 /** Unit tests for the Date class. */
 public class DateTest {
 
-  private int
+  private int fieldAddedByCollaborator
 
   private final int day;
 
