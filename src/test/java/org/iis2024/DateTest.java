@@ -7,6 +7,14 @@ import org.junit.jupiter.api.Test;
 /** Unit tests for the Date class. */
 public class DateTest {
 
+  private int
+
+  private final int day;
+
+  private final int month;
+
+  private final int year;
+
   @Test
   void givenValidDate_whenValidating_thenTrue() {
     // Arrange
